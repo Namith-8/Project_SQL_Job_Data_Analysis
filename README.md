@@ -150,4 +150,4 @@ To further enhance this project, I plan to:
 This analysis proves that while the core of data analysis remains rooted in SQL, the ceiling for career growth and salary is defined by **adaptability** and **specialization**. For aspiring data professionals, the path forward is clear: master the fundamentals, then strategically layer on high-value, emerging technologies.
 
 ---
-*Built with ❤️ using PostgreSQL, SQL, and Python.*
+*Built with ❤️ *
