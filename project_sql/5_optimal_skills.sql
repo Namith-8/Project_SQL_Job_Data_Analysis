@@ -5,13 +5,11 @@
 -- - This will help individuals prioritize their learning and development efforts to maximize career growth and earning potential.
 
 
-WITH skill_demand AS (
-    SELECT 
+WITH skill_demand AS ( SELECT 
         sjd.skill_id,
         COUNT(sjd.job_id) AS demand_count
     FROM skills_job_dim AS sjd
-    GROUP BY sjd.skill_id
-),
+    GROUP BY sjd.skill_id ),
 average_salary AS (
     SELECT 
         sjd.skill_id,
@@ -21,9 +19,7 @@ average_salary AS (
     WHERE 
         jpf.job_title_short = 'Data Analyst' 
         AND jpf.salary_year_avg IS NOT NULL
-    GROUP BY sjd.skill_id
-)
-
+    GROUP BY sjd.skill_id )
 SELECT 
     sd.skills,
     demand.demand_count,
