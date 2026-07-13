@@ -1,24 +1,19 @@
-<!-- TODO: Update the contents of this later -->
+# Introduction
+📊 Dive into the data job market! Focusing on data analyst roles, this project explores 💰 top-paying jobs, 🔥 in-demand skills, and 📈 where high demand meets high salary in data analytics.
 
- **Job Market Insights from top_paying_job_skills
- **
+SQL Querries? Check them out here: [Project folder] (/project_sql/)
 
-Based on the 10 roles listed, here is the breakdown of the data:
+# Background
 
-Average Salary : The average annual salary for these top-tier positions is $264,506.
 
-Salary Range : The salaries range significantly from $184,000 to $650,000, indicating a wide variance based on seniority, company, and specific responsibilities.
+# Tools I used 
 
-Top Paying Roles :
-    Mantys  leads the list with a Data Analyst role paying $650,000.
-    Meta  follows with a Director of Analytics role at $336,500.
-    AT&T  offers an Associate Director position at $255,829.50.
 
- Key Observations
-Seniority Premiums: High-paying roles often carry senior titles such as "Director," "Associate Director," or "Principal Data Analyst," confirming that leadership and specialized experience are major salary drivers.
+# The Analysis 
 
-Company Impact: Large organizations like Meta and AT&T feature prominently, which is consistent with the trend of major tech and telecommunications firms offering competitive compensation for data-centric leadership.
 
-Data Consistency: The data provided is clean and represents a specific subset of the job market ("Anywhere" locations). In a broader analysis, one would typically join this data with a "skills_job_dim" table to map these specific job_id entries to their required technical skills (such as Python, SQL, or Tableau).
+# What I learnt 
 
-![Top Paying Job Skills insights](image.png)
+  
+  
+# Conclusion 
